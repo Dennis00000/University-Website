@@ -1,0 +1,121 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Marvel University </title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1> Programs For 2024</h1>
+    </section>
+    
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/certificate.jpg">
+        <h2>Programs For 2024</h2>
+        <p>Discover Marvel, where academic excellence meets innovation and inclusivity. <br>
+            With a legacy of fostering critical thinking and intellectual growth, we empower our students to tackle tomorrow's challenges with confidence. <br>
+            Our renowned faculty, state-of-the-art facilities, and vibrant community create an inspiring environment for personal and professional development. <br>
+            Committed to serving society through education and research, we invite you to join us on a journey of knowledge, discovery, and impact. <br>
+             Welcome to Marvel University.</p>
+        
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+        
+    <div class="blog-right">
+        
+        
+            <h3>Postgraduate Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>10</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>12</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>16</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>11</span>
+            </div>
+           
+        </div> 
+    
+    </div>
+    </section>
+    
+
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p> At Marvel's, we are dedicated to fostering academic excellence, innovation, and inclusivity. <br> 
+            With a rich history of nurturing intellectual curiosity and fostering critical thinking skills, we prepare our students to tackle the challenges of tomorrow with confidence. <br>
+            Our distinguished faculty, cutting-edge research facilities, and vibrant community create an environment where students can thrive academically, personally, and professionally. <br>
+             Committed to serving society through education, research, and community engagement, we strive to empower individuals to reach their full potential and make a positive impact on the world. <br>
+              Join us at Marvel and be part of a dynamic community dedicated to knowledge, discovery, and transformation.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>© All Rights Reserved</p>
+</section>    
+  
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
